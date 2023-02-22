@@ -13,10 +13,13 @@ code {
 }
 
 .header{
+  width: 100vw;
+  margin: 0px auto;
   background-color:black;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  
 }
 
 .header-container {
@@ -63,12 +66,43 @@ code {
 }
 
 .gamecube {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
 }
 
 .main-image{
-  width: 120%;
+  width: 105%;
   height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.character-bar-img{
+  height: 120px;
+  width: auto;
+}
+
+.character-bar-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.char-name{
+  color: white;
+}
+
+.image-page-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
