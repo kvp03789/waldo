@@ -89,10 +89,12 @@ code {
   justify-content: center;
   align-items: center;
   gap: 50px;
+  background-color: white;
 }
 
 .char-name{
-  color: white;
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
 }
 
 .image-page-container{
